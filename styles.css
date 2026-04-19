@@ -37,6 +37,15 @@ body {
     url('https://images.unsplash.com/photo-1583391733959-b5eb29d0f3eb?auto=format&fit=crop&q=80') center/cover;
 }
 
+.brand-logo {
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 50%; /* Optional: removes harsh edges if it's not transparent */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  animation: fadeInDown 1.2s ease-out;
+}
+
 .brand-name {
   font-family: 'Playfair Display', serif;
   font-size: 4.5rem;
